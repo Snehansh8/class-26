@@ -35,6 +35,7 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
+    pig2 = new Pig(300,220)
 
 }
 
@@ -61,4 +62,5 @@ function draw(){
 
     bird.display();
     platform.display();
+    pig2.display();
 }
